@@ -9,7 +9,8 @@
     "audit": "node tests/integrity-audit.js"
   },
   "engines": {
-    "node": ">=22"
+    "node": "22.x"
   }
 }
+
 
