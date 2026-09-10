@@ -1,11 +1,6 @@
 ﻿{
-  "version": 2,
-  "env": {
-    "DATA_DIR": "/tmp/data"
-  },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.js" },
-    { "source": "/health", "destination": "/api/index.js" },
-    { "source": "/", "destination": "/index.html" }
+    { "source": "/health", "destination": "/api" },
+    { "source": "/api/(.*)", "destination": "/api" }
   ]
 }
